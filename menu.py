@@ -50,9 +50,26 @@ menu = {
     }
 }
 
+print(menu_sections)
+print(menue_prices)
+
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity ordered
 
+[
+  {
+    "Item name": "string",
+    "Price": float,
+    "Quantity": int
+  },
+  {
+    "Item name": "string",
+    "Price": float,
+    "Quantity": int
+  },
+]
+print(Item_prices)
+print(Item_Quantity)
 
 # Launch the store and present a greeting to the customer
 print("Welcome to the variety food truck.")
